@@ -21,7 +21,8 @@ jobs:
       run: dotnet build VantaZeroClear.csproj -c Release
 
     - name: Upload EXE
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v2
+
       with:
         name: VANTA_Zero_Clear
         path: bin/Release/net6.0-windows/VantaZeroClear.exe
