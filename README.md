@@ -37,6 +37,6 @@ VANTA Zero Clear — a privacy-first Windows utility for advanced trace removal 
 
 All releases are signed with our official key:  
 `vanta.monster@proton.me`  
-Fingerprint: **9540 99F1 8A70 1333 F744  7D51 B3F9 4A16 5504 5ECC**
+Fingerprint: **[your_fingerprint_here]**
 
-
+You can verify with:

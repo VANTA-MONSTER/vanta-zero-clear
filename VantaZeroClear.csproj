@@ -3,8 +3,21 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <RootNamespace>VantaZeroClear</RootNamespace>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
-    <AssemblyName>VANTA Zero Clear</AssemblyName>
+    <AssemblyName>VantaZeroClear</AssemblyName>
+    <UseAppHost>true</UseAppHost>
+    <PublishSingleFile>true</PublishSingleFile>
   </PropertyGroup>
+    <ItemGroup>
+    <None Include="info.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="info.png">
+      <!-- Логическое имя: <DefaultNamespace>.<ИмяФайла> -->
+      <LogicalName>VantaZeroClear.info.png</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>
