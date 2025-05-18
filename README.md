@@ -1,14 +1,42 @@
 # VANTA Zero Clear
 
-Portable system cleaning tool with GUI.
-Supports English and Russian.
+VANTA Zero Clear — a privacy-first Windows utility for advanced trace removal and system hygiene.
 
-## Usage
+**Project site:** [https://vanta.monster](https://vanta.monster)
 
-- Build with .NET 6.0+ SDK: `dotnet build`
-- Run `VantaZeroClear.exe`
+---
 
-## Build and release
+## Purpose
 
-1. Compile in Release mode
-2. Sign exe: `gpg --armor --detach-sign -u "vanta.monster@proton.me" VantaZeroClear.exe`
+- **Total trace cleaning:** Remove temp files, event logs, shadow copies, recycle bin contents, and wipe free space.
+- **Simple & safe:** GUI, language switch (EN/RU), MacOS-style premium look.
+- **For privacy pros:** Ideal for those who value digital hygiene, anonymity, and the "no traces left" credo of VANTA.
+
+---
+
+## Features
+
+- Modern premium UI (inspired by MacOS)
+- EN/RU language switch
+- Complete temp & log clean
+- Shadow copies and Recycle Bin wipe
+- Free space zero-wipe (cipher)
+- No telemetry. No logs. Fully open source.
+
+---
+
+## How to use
+
+1. Download the latest [release](https://github.com/VANTA-MONSTER/vanta-zero-clear/releases).
+2. Verify PGP signature ([how](#pgp-signature)).
+3. Run as administrator for full effect.
+
+---
+
+## PGP Signature
+
+All releases are signed with our official key:  
+`vanta.monster@proton.me`  
+Fingerprint: **9540 99F1 8A70 1333 F744  7D51 B3F9 4A16 5504 5ECC**
+
+
